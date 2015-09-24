@@ -7,6 +7,6 @@ Join the conversation!
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodejs/help)
 
-Create a new issue
+Please feel free to ask
 ====
 [Please click here to create a new issue if you have any questions!](https://github.com/nodejs/help/issues/new)
