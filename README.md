@@ -7,11 +7,11 @@ Join the conversation!
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodejs/help)
 
-### Please feel free to ask
+## Please feel free to ask
 
-[Please click here](https://github.com/nodejs/help/issues/new) to create a new issue if you have any questions :smile:
+[Please click here](https://github.com/nodejs/help/issues/new) to create a new issue if you have any questions. :smile:
 
-### Help WG Members
+## Help WG Members
 
 * [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
 * [Minwoo Jung](https://github.com/JungMinu) - [@jmwsoft](https://twitter.com/jmwsoft)
