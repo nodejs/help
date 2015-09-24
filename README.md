@@ -1,4 +1,4 @@
-help
+Help
 ====
 
 Need help with Node.js? You've come to the right place! [Create a new issue](https://github.com/nodejs/help/issues/new)!
@@ -6,3 +6,7 @@ Need help with Node.js? You've come to the right place! [Create a new issue](htt
 Join the conversation!
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodejs/help)
+
+Create a new issue
+====
+[Please click here to create a new issue if you have any questions!](https://github.com/nodejs/help/issues/new)
