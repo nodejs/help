@@ -7,6 +7,18 @@ Join the conversation!
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodejs/help)
 
-Please feel free to ask
-====
+### Please feel free to ask
+
 [Please click here to create a new issue if you have any questions!](https://github.com/nodejs/help/issues/new)
+
+### Help WG Members
+
+* [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
+* [Minwoo Jung](https://github.com/JungMinu) - [@jmwsoft](https://twitter.com/jmwsoft)
+* [Ross Kukulinski](http://github.com/rosskukulinski) - [@rosskukulinski](http://twitter.com/rosskukulinski)
+* [Emily Rose](https://github.com/emilyrose) -  [@nexxylove](https://twitter.com/nexxylove)
+* [Julian Duque](https://github.com/julianduque) - [@julian_duque](https://twitter.com/julian_duque)
+* [Tierney Coren](https://github.com/bnb) - [@bitandbang](https://twitter.com/bitandbang)
+* [Yosuke Furukawa](https://github.com/yosuke-furukawa) - [@yosuke-furukawa](https://twitter.com/yosuke_furukawa)
+* [Tony Pujals](https://github.com/tonypujals) - [@subfuzion](https://twitter.com/subfuzion)
+* [Giovanny Andres Gongora Granada](https://github.com/Gioyik) - [@Gioyik](https://twitter.com/Gioyik)
