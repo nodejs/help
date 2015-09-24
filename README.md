@@ -9,7 +9,7 @@ Join the conversation!
 
 ### Please feel free to ask
 
-[Please click here to create a new issue if you have any questions!](https://github.com/nodejs/help/issues/new)
+[Please click here](https://github.com/nodejs/help/issues/new) to create a new issue if you have any questions!]
 
 ### Help WG Members
 
