@@ -10,10 +10,10 @@ Join the conversation!
 ## Please feel free to ask
 
 * [Please click here](https://github.com/nodejs/help/issues/new) to create a new issue if you have any questions. :smile:
-* Want to help others with issues? You can start simply, by answering open questions.
 
 ## Help WG Members
 
+Want to help others with issues? You can start simply, by answering open questions.
 * [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
 * [Minwoo Jung](https://github.com/JungMinu) - [@jmwsoft](https://twitter.com/jmwsoft)
 * [Rich Trott](https://github.com/Trott) - [@Trott](https://twitter.com/Trott)
