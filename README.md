@@ -13,6 +13,7 @@ Join the conversation!
 
 ## Help WG Members
 
+Want to help others with issues? You can start simply, by answering open questions.
 * [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
 * [Minwoo Jung](https://github.com/JungMinu) - [@jmwsoft](https://twitter.com/jmwsoft)
 * [Rich Trott](https://github.com/Trott) - [@Trott](https://twitter.com/Trott)
