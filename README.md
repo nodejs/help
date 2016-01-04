@@ -10,6 +10,7 @@ Join the conversation!
 ## Please feel free to ask
 
 [Please click here](https://github.com/nodejs/help/issues/new) to create a new issue if you have any questions. :smile:
+Want to help others with issues? You can start simply, by answering open questions.
 
 ## Help WG Members
 
