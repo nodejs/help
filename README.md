@@ -1,7 +1,7 @@
 ![node-js](assets/nodejs-black.png) Help
 ====
 
-Need help with Node.js? You've come to the right place! [Create a new issue](https://github.com/nodejs/help/issues/new)!
+Need help with Node.js? You've come to the right place! [Create a new issue](https://github.com/nodejs/help/issues/new)! [Visit out Gitter channel](https://gitter.im/nodejs/help)!
 
 Join the conversation!
 
