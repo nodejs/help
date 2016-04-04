@@ -14,7 +14,7 @@ If you would prefer to get help via live chat rather than the issue tracker in
 this repository, you can try:
 
 * [Freenode #node.js channel](https://webchat.freenode.net/?channels=node.js&uio=d4)
-* [Gitter Node.js room](https://gitter.im/nodejs/help)
+* [Gitter Node.js room](https://gitter.im/nodejs/node)
 
 ## Help WG Members
 
