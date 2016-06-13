@@ -1,4 +1,4 @@
-![node-js](assets/small-new-node.png) Help
+![node-js](assets/Yo-node.png) Help
 ====
 
 Need help with Node.js? You've come to the right place!
