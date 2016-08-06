@@ -9,7 +9,9 @@ If you have a question about Node.js, [create a new issue](https://github.com/no
 and ask there!
 
 When inserting you're code:
-use 3 backticks, right under the tilde & atop of the tab key followed by js: then end your code with 3 tilde. As seen below, except without the round brackets.  
+
+use 3 backticks, followed by js: As seen below, except without the round brackets.  
+![node-js](assets/backtick.png)
 
 (```js)
 
