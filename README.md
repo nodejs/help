@@ -8,9 +8,9 @@ Need help with Node.js? You've come to the right place!
 If you have a question about Node.js, [create a new issue](https://github.com/nodejs/help/issues/new)
 and ask there!
 
-When inserting you're code:
+[note] When inserting you're code:
 
-use 3 backticks, followed by js: As seen below, except without the round brackets.  
+use 3 backticks, followed by `js`: As seen below, except without the round brackets.  
 ![node-js](assets/backtick.png)
 
 (```js)
