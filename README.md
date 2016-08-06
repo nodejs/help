@@ -8,6 +8,19 @@ Need help with Node.js? You've come to the right place!
 If you have a question about Node.js, [create a new issue](https://github.com/nodejs/help/issues/new)
 and ask there!
 
+When inserting you're code:
+use 3 backticks, right under the tilde & atop of the tab key followed by js: then end your code with 3 tilde. As seen below, except without the round brackets.  
+
+(```js)
+
+(```)
+
+results in
+```js
+  console.log('happycoding!')
+```
+
+
 ## Chat Resources
 
 If you would prefer to get help via live chat rather than the issue tracker in
