@@ -10,7 +10,7 @@ and ask there!
 
 [note] When inserting you're code:
 
-use 3 backticks, followed by `js`: As seen below, except without the round brackets.  
+use 3 backticks, followed by `js`: As seen below  
 ![node-js](assets/backtick.png)
 
 <blockquote>```js<br>
