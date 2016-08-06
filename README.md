@@ -21,7 +21,6 @@ this repository, you can try:
 Want to help others with issues? You can start simply, by answering open questions.
 * [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
 * [Minwoo Jung](https://github.com/JungMinu) - [@jmwsoft](https://twitter.com/jmwsoft)
-* [Rich Trott](https://github.com/Trott) - [@Trott](https://twitter.com/Trott)
 * [Ross Kukulinski](http://github.com/rosskukulinski) - [@rosskukulinski](http://twitter.com/rosskukulinski)
 * [Emily Rose](https://github.com/emilyrose) -  [@nexxylove](https://twitter.com/nexxylove)
 * [Julian Duque](https://github.com/julianduque) - [@julian_duque](https://twitter.com/julian_duque)
