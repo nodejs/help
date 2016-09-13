@@ -3,6 +3,10 @@
 
 Need help with Node.js? You've come to the right place!
 
+## [Wiki](https://github.com/nodejs/help/wiki)
+
+The Installation help for Node.js: [How to install Node.js](https://github.com/nodejs/help/wiki/Installation)
+
 ## [Create a new issue](https://github.com/nodejs/help/issues/new)
 
 If you have a question about Node.js, [create a new issue](https://github.com/nodejs/help/issues/new)
