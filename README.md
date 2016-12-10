@@ -16,7 +16,7 @@ this repository, you can try:
 * [Freenode #node.js channel](https://webchat.freenode.net/?channels=node.js&uio=d4)
 * [Gitter Node.js room](https://gitter.im/nodejs/node)
 
-## Help Team Members
+## Help WG Members
 
 Want to help others with issues? You can start simply, by answering open questions.
 * [Mikeal Rogers](http://github.com/mikeal) - [@mikeal](http://twitter.com/mikeal)
