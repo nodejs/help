@@ -1,4 +1,4 @@
-## Please remove this line and fill the template
+<!-- Please remove this line and fill the template -->
 
 * **Node.js Version**:
 * **OS**:
@@ -7,9 +7,10 @@
 
 -
 
-## Please write your issue here and remove this line and the example code part. If relevant, provide some code following the example:
+<!-- Please write your issue here and remove this line and the example code part. If relevant, provide some code following the example:
 
 ```js
 // I am an example of JS code
 // please remove me too
 ```
+-->
