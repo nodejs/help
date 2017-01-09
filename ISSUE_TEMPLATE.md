@@ -3,7 +3,7 @@
 * **Node.js Version**:
 * **OS**:
 * **Scope (install, code, runtime, meta, other?)**:
-* **Package (and version) (if relevant)**:
+* **Module (and version) (if relevant)**:
 
 -
 
