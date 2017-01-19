@@ -8,6 +8,21 @@ Need help with Node.js? You've come to the right place!
 If you have a question about Node.js, [create a new issue](https://github.com/nodejs/help/issues/new)
 and ask there!
 
+[note] When inserting you're code:
+
+use 3 backticks, followed by `js`: As seen below  
+![node-js](assets/backtick.png)
+
+<blockquote>```js<br>
+console.log('happy coding!')<br>
+```</blockquote>
+
+results in
+```js
+  console.log('happy coding!')
+```
+
+
 ## Chat Resources
 
 If you would prefer to get help via live chat rather than the issue tracker in
