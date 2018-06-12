@@ -1,5 +1,12 @@
-![node-js](assets/Yo-node.png) Help
-====
+<p align="center">
+    <img
+      alt="Node.js"
+      src="https://nodejs.org/static/images/logo-light.svg"
+      width="400"
+    />
+   <h1 align="center"> Help </h1>
+</p>
+
 
 Need help with Node.js? You've come to the right place!
 
