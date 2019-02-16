@@ -41,6 +41,7 @@ this repository, you can try:
 
 * [Freenode #node.js channel](https://webchat.freenode.net/?channels=node.js&uio=d4)
 * [Gitter Node.js room](https://gitter.im/nodejs/node)
+* [Slack Node.js ](https://node-js.slack.com/)
 
 ## Participation
 Want to help others with issues? You can start simply, by answering open questions.
