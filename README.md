@@ -8,7 +8,7 @@
 </p>
 
 
-Need help with Node.js? You've come to the right place!
+Need help with Node.js? You've come to the Absolutely right place! 
 
 ## [Wiki](https://github.com/nodejs/help/wiki)
 
