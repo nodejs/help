@@ -1,47 +1,47 @@
 <p align="center">
+  <a href="https://nodejs.org/">
     <img
       alt="Node.js"
       src="https://nodejs.org/static/images/logo-light.svg"
       width="400"
     />
-   <h1 align="center"> Help </h1>
+  </a>
+  <h1 align="center">Help</h1>
 </p>
-
 
 Need help with Node.js? You've come to the right place!
 
-## [Wiki](https://github.com/nodejs/help/wiki)
+## Install
 
-The Installation help for Node.js: [How to install Node.js](https://github.com/nodejs/help/wiki/Installation)
+Check out [this wiki](https://github.com/nodejs/help/wiki/Installation)
+to learn how to install Node.js via binary archive on Linux and AIX.
 
-## [Create a new issue](https://github.com/nodejs/help/issues/new)
+## Participate
 
-If you have a question about Node.js, [create a new issue](https://github.com/nodejs/help/issues/new)
-and ask there!
+You can participate by asking or answering open questions present
+in the [issues section](https://github.com/nodejs/help/issues).
 
-[note] When inserting your code:
+#### Note
 
-use 3 backticks, followed by `js`: As seen below  
+When inserting your code use 3 backticks, followed by `js` as shown below:
+
 ![node-js](assets/backtick.png)
 
-<blockquote>```js<br>
-console.log('happy coding!')<br>
-```</blockquote>
-
-results in
+````
 ```js
-console.log('happy coding!')
+console.log('happy coding!');
+```
+````
+
+It gets rendered as such:
+```js
+console.log('happy coding!');
 ```
 
+## Chat
 
-## Chat Resources
-
-If you would prefer to get help via live chat rather than the issue tracker in
-this repository, you can try:
+If you would prefer to get help via live chat rather than the issue tracker
+in this repository, you can try:
 
 * [Freenode #node.js channel](https://webchat.freenode.net/?channels=node.js&uio=d4)
-* [Node.js Slack Community](https://node-js.slack.com/)
-  * To register: [nodeslackers.com](http://www.nodeslackers.com/)
-  
-## Participation
-Want to help others with issues? You can start simply, by answering open questions.
+* [Node.js Slack Community](https://node-js.slack.com/) - register [here](http://www.nodeslackers.com/)
