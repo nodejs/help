@@ -2,7 +2,7 @@
   <a href="https://nodejs.org/">
     <img
       alt="Node.js"
-      src="https://nodejs.org/static/images/logo-light.svg"
+      src="https://developers.redhat.com/blog/wp-content/uploads/2020/05/nodejs-new-pantone-black.png"
       width="400"
     />
   </a>
