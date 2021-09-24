@@ -43,5 +43,7 @@ console.log('happy coding!');
 If you would prefer to get help via live chat rather than the issue tracker
 in this repository, you can try:
 
-* [Freenode #node.js channel](https://webchat.freenode.net/?channels=node.js&uio=d4)
-* [Node.js Slack Community](https://node-js.slack.com/) - register [here](http://www.nodeslackers.com/)
+* [#nodejs](https://openjs-foundation.slack.com/archives/CK9Q4MB53) channel on the OpenJS Foundation Slack ([join here](https://slack-invite.openjsf.org/))
+* [#node.js channel on libera.chat](https://web.libera.chat?channels=node.js&uio=d4)
+* [Node.js Slack Community](https://node-js.slack.com/)
+  * To register: [nodeslackers.com](https://www.nodeslackers.com/)
