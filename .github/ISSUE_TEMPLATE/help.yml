@@ -18,6 +18,12 @@ body:
       value: "Not applicable."
     validations:
       required: true
+  
+  - type: textarea
+    id: code
+    attributes:
+      label: Example code
+      description: The code/log related to the problem.
 
   - type: textarea
     id: os
@@ -32,7 +38,7 @@ body:
     attributes:
       label: Scope
       description: The scope of the issue. Installation, code, runtime, meta, other?
-    validation:
+    validations:
       required: true
         
   - type: textarea
