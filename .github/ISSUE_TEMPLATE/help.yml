@@ -24,6 +24,7 @@ body:
     attributes:
       label: Example code
       description: The code/log related to the problem.
+      placeholder: "Not applicable."
 
   - type: textarea
     id: os
