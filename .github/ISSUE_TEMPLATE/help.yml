@@ -1,0 +1,50 @@
+name: Help
+description: Get general support regarding using Node.js.
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Kindly explain in detail your problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: node_version
+    attributes:
+      label: Node.js version
+      description: The version of Node.js you are using.
+      value: "Not applicable."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: code
+    attributes:
+      label: Example code
+      description: The code/log related to the problem.
+      placeholder: "Not applicable."
+
+  - type: textarea
+    id: os
+    attributes:
+      label: Operating system
+      description: The operating system you are running.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: The scope of the issue. Installation, code, runtime, meta, other?
+    validations:
+      required: true
+        
+  - type: textarea
+    id: module
+    attributes:
+      label: Module and version
+      description: The Node.js module that you are experiencing problems with (if applicable).
+      value: "Not applicable."
