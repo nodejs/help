@@ -1,0 +1,36 @@
+name: Close stale issues
+on:
+  workflow_dispatch:
+  schedule:
+    # Run every day at 1:00 AM UTC.
+    - cron: 0 1 * * *
+
+# yamllint disable rule:empty-lines
+env:
+  CLOSE_MESSAGE: >
+    There has been no activity on this issue
+    and it is being closed. If you feel closing this issue is not the
+    right thing to do, please leave a comment.
+  WARN_MESSAGE: >
+    There has been no activity on this issue for
+    3 years and it may no longer be relevant.
+    It will be closed 1 month after the last non-automated comment.
+# yamllint enable
+
+jobs:
+  stale:
+    if: github.repository == 'nodejs/help'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          # 3 years. this number is chosen to target around 25 initial issues, with then a natural flow as time progresses
+          days-before-stale: 1095
+          days-before-close: 30
+          stale-issue-label: stale
+          close-issue-message: ${{ env.CLOSE_MESSAGE }}
+          stale-issue-message: ${{ env.WARN_MESSAGE }}
+          # max requests it will send per run to the GitHub API before it deliberately exits to avoid hitting API rate limits
+          operations-per-run: 30
+          remove-stale-when-updated: true
