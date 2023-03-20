@@ -1,13 +1,14 @@
 <p align="center">
-  <a href="https://nodejs.org/">
-    <img
-      alt="Node.js"
-      src="https://nodejs.org/static/images/logo-light.svg"
-      width="400"
-    />
+  <br />
+  <a href="https://nodejs.org">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://nodejs.org/static/images/logos/nodejs-new-pantone-white.svg">
+      <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="200px">
+    </picture>
   </a>
-  <h1 align="center">Help</h1>
 </p>
+
+<h1 align="center">Help</h1>
 
 Need help with Node.js? You've come to the right place!
 
