@@ -14,7 +14,7 @@ body:
     id: node_version
     attributes:
       label: Node.js version
-      description: The version of Node.js you are using.
+      description: The version of Node.js you are using. (run command node -p process.versions on your system and share the output)
       value: "Not applicable."
     validations:
       required: true
@@ -30,7 +30,7 @@ body:
     id: os
     attributes:
       label: Operating system
-      description: The operating system you are running.
+      description: The operating system you are running. (share the output of uname -a if you are running on Linux, macOS, *BSD or unix like systems; on windows run the ver command)
     validations:
       required: true
 
