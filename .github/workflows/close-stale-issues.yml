@@ -21,7 +21,7 @@ jobs:
     if: github.repository == 'nodejs/help'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@a20b814fb01b71def3bd6f56e7494d667ddf28da #4.1.1
+      - uses: actions/stale@v8
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 330 # 11 months
