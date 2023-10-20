@@ -8,13 +8,11 @@ on:
 # yamllint disable rule:empty-lines
 env:
   CLOSE_MESSAGE: >
-    There has been no activity on this issue
-    and it is being closed. If you feel closing this issue is not the
-    right thing to do, please leave a comment.
+    Closing after no activity on this issue for 9 months. 
   WARN_MESSAGE: >
-    There has been no activity on this issue for 90 days.
+    There has been no activity on this issue for 8 months.
     The help repository works best when sustained engagement moves conversation forward.
-    The issue will be closed 1 month after the last non-automated comment.
+    The issue will be closed in 1 month.
     If you are still experiencing this issue on the latest supported versions of Node.js, please leave a comment.
 # yamllint enable
 
@@ -26,7 +24,7 @@ jobs:
       - uses: actions/stale@a20b814fb01b71def3bd6f56e7494d667ddf28da #4.1.1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          days-before-stale: 90
+          days-before-stale: 240 # 8 months
           days-before-close: 30
           stale-issue-label: stale
           close-issue-message: ${{ env.CLOSE_MESSAGE }}
