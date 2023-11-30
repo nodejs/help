@@ -1,10 +1,9 @@
 <p align="center">
   <a href="https://nodejs.org/">
-    <img
-      alt="Node.js"
-      src="https://nodejs.org/static/images/logos/stacked-dark.svg"
-      width="400"
-    />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./public/static/images/logos/nodejs-new-pantone-white.svg">
+      <img src="./public/static/images/logos/nodejs-new-pantone-black.svg" width="200px">
+    </picture>
   </a>
   <h1 align="center">Help</h1>
 </p>
