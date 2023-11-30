@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://nodejs.org/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./public/static/images/logos/nodejs-new-pantone-white.svg">
-      <img src="./public/static/images/logos/nodejs-new-pantone-black.svg" width="200px">
+      <source media="(prefers-color-scheme: dark)" srcset="https://nodejs.org/static/images/logos/nodejs-new-pantone-white.svg">
+      <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="200px">
     </picture>
   </a>
   <h1 align="center">Help</h1>
