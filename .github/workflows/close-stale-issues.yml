@@ -1,4 +1,4 @@
-name: Close stale issues
+name: Close stale issues/prs
 on:
   workflow_dispatch:
   schedule:
@@ -8,27 +8,47 @@ on:
 # yamllint disable rule:empty-lines
 env:
   CLOSE_MESSAGE: >
-    Closing after no activity on this issue for 12 months. 
+    It seems there has been no activity on this issue for a while,
+    and it is being closed. If you believe this issue should
+    remain open, please leave a comment.
+
+    If you need further assistance or have questions, you can
+    also search for similar issues on [Stack Overflow](https://stackoverflow.com/).
+
+    Make sure to look at the README file for the most updated links.
+
   WARN_MESSAGE: >
-    There has been no activity on this issue for 11 months.
-    The help repository works best when sustained engagement moves conversation forward.
-    The issue will be closed in 1 month.
-    If you are still experiencing this issue on the latest supported versions of Node.js, please leave a comment.
+    It seems there has been no activity on this issue for a while,
+    and it is being closed **in 30 days**. If you believe this issue should
+    remain open, please leave a comment.
+
+    If you need further assistance or have questions, you can
+    also search for similar issues on [Stack Overflow](https://stackoverflow.com/).
+
+    Make sure to look at the README file for the most updated links.
 # yamllint enable
+
+permissions:
+  contents: read
 
 jobs:
   stale:
+    permissions:
+      issues: write  # for actions/stale to close stale issues
+      pull-requests: write  # for actions/stale to close stale PRs
     if: github.repository == 'nodejs/help'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v8
+      - uses: actions/stale@v9.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          days-before-stale: 330 # 11 months
+          days-before-stale: 180
           days-before-close: 30
-          stale-issue-label: stale
-          close-issue-message: ${{ env.CLOSE_MESSAGE }}
           stale-issue-message: ${{ env.WARN_MESSAGE }}
-          # max requests it will send per run to the GitHub API before it deliberately exits to avoid hitting API rate limits
-          operations-per-run: 30
+          stale-pr-message: ${{ env.WARN_MESSAGE }}
+          close-issue-message: ${{ env.CLOSE_MESSAGE }}
+          close-pr-message: ${{ env.CLOSE_MESSAGE }}
+          exempt-issue-labels: never-stale
+          exempt-pr-labels: never-stale
+          operations-per-run: 500
           remove-stale-when-updated: true
