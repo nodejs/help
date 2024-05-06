@@ -30,12 +30,10 @@ env:
 
 permissions:
   contents: read
-
+  issues: write
+  pull-requests: write
 jobs:
   stale:
-    permissions:
-      issues: write  # for actions/stale to close stale issues
-      pull-requests: write  # for actions/stale to close stale PRs
     if: github.repository == 'nodejs/help'
     runs-on: ubuntu-latest
     steps:
@@ -50,5 +48,7 @@ jobs:
           close-pr-message: ${{ env.CLOSE_MESSAGE }}
           exempt-issue-labels: never-stale
           exempt-pr-labels: never-stale
+          stale-pr-label: stale
+          stale-issue-label: stale
           operations-per-run: 500
           remove-stale-when-updated: true
