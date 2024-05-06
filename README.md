@@ -1,9 +1,10 @@
 # Node.js Help
 
 <p align="center">
-  <a href="https://nodejs.org/">
-    <img src="https://nodejs.org/static/logos/nodejsStackedDark.svg" width="200px">
-  </a>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://nodejs.org/static/logos/nodejsStackedLight.svg">
+      <img src="https://nodejs.org/static/logos/nodejsStackedDark.svg" width="200px">
+    </picture>
 </p>
 
 ## Welcome to Node.js Help!
@@ -54,38 +55,30 @@ To install Node.js, check out [this wiki](https://github.com/nodejs/help/wiki/In
 ## What to Ask:
 
 ### 1. Clear and Specific Questions:
-- How can I achieve [specific task] in my Node.js application?
-- What is the best way to handle [specific problem] in Node.js?
-- Can someone help me understand how [specific feature] in Node.js works?
+- How can I achieve _\[specific task]_ in my Node.js application?
+- What is the best way to handle _\[specific problem]_ in Node.js?
+- Can someone help me understand how _\[specific feature]_ in Node.js works?
 
 ### 2. Troubleshooting Questions:
-- I'm encountering [specific error] when trying to [specific action]. How can I resolve this?
-- What could be causing [specific behavior] in my Node.js code?
+- I'm encountering _\[specific error]_ when trying to _\[specific action]_. How can I resolve this?
+- What could be causing _\[specific behavior]_ in my Node.js code?
 
-### 3. Code Review and Optimization:
-- Can someone review my Node.js code and provide feedback on how to optimize it?
-- What are some best practices for improving the performance of my Node.js application?
-
-### 4. Conceptual Questions:
-- Can someone explain the difference between [concept A] and [concept B] in Node.js?
-- How does [specific module or feature] in Node.js work under the hood?
-
-### 5. Seeking Recommendations:
-- What is the recommended package for handling [specific task] in Node.js?
-- Can anyone suggest a good tutorial or resource for learning about [specific topic] in Node.js?
+### 3. Conceptual Questions:
+- Can someone explain the difference between _\[concept A]_ and _\[concept B]_ in Node.js?
+- How does _\[specific module or feature]_ in Node.js work under the hood?
 
 ## What NOT to Ask:
 
 ### 1. General Programming Questions:
 - How do I write a for loop in JavaScript?
-- What is HTML and how does it work?
+- What is HTML, and how does it work?
 
 ### 2. Personal Debugging:
-- Can someone debug my entire Node.js project for me?
+- Would someone be able to debug my entire Node.js project for me?
 - Why isn't my code working? (without providing any specific details or code snippets)
 
 ### 3. Unsupported or External Package Issues:
-- I'm having trouble with a third-party package (not related to Node.js core). Can someone help?
+- I need help with a third-party package (not related to Node.js core). Can someone help?
 - Why doesn't this external package work in my Node.js project?
 
 ### 4. Opinion-Based Questions:
@@ -122,11 +115,13 @@ console.log('happy coding!');
 
 ## Participate
 
-You can participate by asking or answering open questions present in the [issues section](https://github.com/nodejs/help/issues).
+You can participate by asking or answering open questions in the [issues section](https://github.com/nodejs/help/issues).
 
 ## External Links
 
 - [Node.js Official Website](https://nodejs.org/)
 - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
 - [Node.js GitHub Repository](https://github.com/nodejs/node)
-- [Node.js Slack](https://node-js.slack.com/) *([Get Invited](https://www.nodeslackers.com/))*
+- [Node.js Slack](https://node-js.slack.com/) *([join here](https://www.nodeslackers.com/))*
+- [#nodejs channel](https://openjs-foundation.slack.com/archives/CK9Q4MB53) on the OpenJS Foundation Slack *([join here](https://slack-invite.openjsf.org/))*
+- [#node.js channel on libera.chat](https://web.libera.chat?channels=node.js&uio=d4)
