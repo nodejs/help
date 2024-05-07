@@ -1,50 +1,97 @@
-name: Help
-description: Get general support regarding using Node.js.
-
+name: General Help
+description: Get general support regarding Node.js
 body:
-  - type: textarea
-    id: details
+  - type: input
     attributes:
-      label: Details
-      description: Kindly explain in detail your problem.
+      label: Node.js Version
+      description: This can be found via the `node -v` command
+      placeholder: v0.0.0
     validations:
       required: true
-
-  - type: textarea
-    id: node_version
+  - type: input
     attributes:
-      label: Node.js version
-      description: The version of Node.js you are using. (run command node -p process.versions on your system and share the output)
-      value: "Not applicable."
+      label: NPM Version
+      description: This can be found via the `npm -v` command
+      placeholder: v0.0.0
     validations:
       required: true
-  
-  - type: textarea
-    id: code
+  - type: input
     attributes:
-      label: Example code
-      description: The code/log related to the problem.
-      placeholder: "Not applicable."
-
-  - type: textarea
-    id: os
-    attributes:
-      label: Operating system
-      description: The operating system you are running. (share the output of uname -a if you are running on Linux, macOS, *BSD or unix like systems; on windows run the ver command)
+      label: Operating System
+      description: >-
+        This can be found via the `uname -a` command, or via System Information
+        on windows
     validations:
       required: true
-
-  - type: textarea
-    id: scope
+  - type: dropdown
     attributes:
-      label: Scope
-      description: The scope of the issue. Installation, code, runtime, meta, other?
+      label: Subsystem
+      description: What area of Node.js are you experiencing touble with?
+      multiple: true
+      options:
+        - assert
+        - async_hooks
+        - buffer
+        - child_process
+        - cluster
+        - console
+        - constants
+        - crypto
+        - dgram
+        - diagnostics_channel
+        - dns
+        - domain
+        - events
+        - fs
+        - http
+        - http2
+        - https
+        - inspector
+        - path
+        - perf_hooks
+        - process
+        - punycode
+        - querystring
+        - readline
+        - repl
+        - stream
+        - string_decoder
+        - timers
+        - tls
+        - trace_events
+        - tty
+        - url
+        - util
+        - v8
+        - vm
+        - wasi
+        - worker_threads
+        - zlib
+        - Other
     validations:
       required: true
-        
   - type: textarea
-    id: module
     attributes:
-      label: Module and version
-      description: The Node.js module that you are experiencing problems with (if applicable).
-      value: "Not applicable."
+      label: Description
+      description: A clear and concise description of the problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Minimal Reproduction
+      description: provide steps to reproduce the problem
+  - type: textarea
+    attributes:
+      label: Output
+      description: provide the error/output to show the issue
+  - type: checkboxes
+    attributes:
+      label: Before You Submit
+      options:
+        - label: I have looked for issues that already exist before submitting this
+          required: true
+        - label: >-
+            My issue follows the guidelines in the README file, and follows the
+            'How to ask a good question' guide at
+            https://stackoverflow.com/help/how-to-ask
+          required: true
