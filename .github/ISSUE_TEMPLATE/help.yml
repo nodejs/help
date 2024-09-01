@@ -54,6 +54,7 @@ body:
         - querystring
         - readline
         - repl
+        - sqlite
         - stream
         - string_decoder
         - timers
