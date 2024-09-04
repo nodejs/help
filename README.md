@@ -11,9 +11,7 @@
 
 Whether you're a beginner or an experienced developer, Node.js Help is here to assist you with all your Node.js questions and concerns.
 
-## Install
-
-To install Node.js, check out [this wiki](https://github.com/nodejs/help/wiki/Installation) to learn how to install Node.js via binary archive on Linux and AIX.
+For more information on Node.js, including installation and building, visit the [nodejs/node](https://github.com/nodejs/node) repository.
 
 ## How to Ask a Good Question
 
