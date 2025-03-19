@@ -120,7 +120,7 @@ You can participate by asking or answering open questions in the [issues section
 - [Node.js Official Website](https://nodejs.org/)
 - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
 - [Node.js GitHub Repository](https://github.com/nodejs/node)
-- [Node Slackers](https://node-js.slack.com/) *([join here](https://www.nodeslackers.com/))*
+- [Node.js Slack](https://node-js.slack.com/) *([join here](https://www.nodeslackers.com/))*
 - [Node.js Discord](https://nodejs.org/discord)
 - [#nodejs channel](https://openjs-foundation.slack.com/archives/CK9Q4MB53) on the OpenJS Foundation Slack *([join here](https://slack-invite.openjsf.org/))*
 - [#node.js channel on libera.chat](https://web.libera.chat?channels=node.js&uio=d4)
