@@ -1,4 +1,4 @@
-name: Close stale issues/prs
+name: Close stale issues, PRs, and Discussions
 on:
   workflow_dispatch:
   schedule:
@@ -33,12 +33,13 @@ permissions:
   issues: write
   pull-requests: write
   actions: write
+  discussions: write
 jobs:
   stale:
     if: github.repository == 'nodejs/help'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e #v9.0.0
+      - uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639 # v9.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 180
@@ -53,3 +54,9 @@ jobs:
           stale-issue-label: stale
           operations-per-run: 500
           remove-stale-when-updated: true
+      - uses: steffen-karlsson/stalesweeper@cbed739a89b490f703d8466fb59b37ddc0915889 # v1.1.1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: ${{ env.CLOSE_MESSAGE }}
+          days-before-close: 180
+          close-unanswered: true
