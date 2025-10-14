@@ -13,7 +13,7 @@ Whether you're a beginner or an experienced developer, Node.js Help is here to a
 
 For more information on Node.js, including installation and building, visit the [nodejs/node](https://github.com/nodejs/node) repository.
 
-## How to Ask a Good Question
+## How to Ask a Good Question:
 
 ### 1. **Be Specific**
    - **Provide Context:** Explain the background or context of your question. This helps others understand your problem or inquiry better.
